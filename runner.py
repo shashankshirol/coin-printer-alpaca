@@ -3,13 +3,16 @@ from alpaca.trading.requests import MarketOrderRequest
 from alpaca.trading.enums import OrderSide, OrderStatus, OrderType, TimeInForce
 
 import time
-import toml
 
-def load_config(filename: str):
-    return toml.load(filename)
+import utils
+import fetch_data
 
-def create_trader_client(config: dict):
-    return TradingClient(config["api"]["key"], config["api"]["secret"], paper=True)
+CONFIG = utils.load_config("config.toml")
+API_KEY = CONFIG["api"]["key"]
+SECRET = CONFIG["api"]["secret"]
+
+GENERATE_BACKTEST_DATA = False
+
 
 def get_order(default: bool = True) -> MarketOrderRequest:
 
@@ -27,8 +30,8 @@ def get_order(default: bool = True) -> MarketOrderRequest:
 
 
 
-def trader(client: TradingClient):
-    while True:
+def trader(client: TradingClient, debug: bool = True):
+    while True and not debug:
         print("Running the Trader\nPress CTRL + C to quit.")
         order_data = get_order()
         print(client.submit_order(order_data))
@@ -36,6 +39,9 @@ def trader(client: TradingClient):
 
 
 if __name__ == "__main__":
-    config = load_config("config.toml")
-    trader(create_trader_client(config=config))
+    trading_client = TradingClient(API_KEY, SECRET, paper=True)
+    trader(trading_client)
+
+    GENERATE_BACKTEST_DATA and fetch_data.generate_data(False)
+
     pass

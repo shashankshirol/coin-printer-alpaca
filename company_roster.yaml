@@ -1,11 +1,11 @@
-top_200_sp500:
+top_30_sp500:
   "Apple Inc.": AAPL
   "Microsoft Corporation": MSFT
   "Amazon.com, Inc.": AMZN
   "Alphabet Inc. (Class A)": GOOGL
   "Alphabet Inc. (Class C)": GOOG
   "NVIDIA Corporation": NVDA
-  "Berkshire Hathaway Inc. (Class B)": BRK.B
+  "Berkshire Hathaway Inc. (Class B)": BRK-B
   "Tesla, Inc.": TSLA
   "Meta Platforms, Inc.": META
   "Visa Inc.": V
@@ -27,165 +27,5 @@ top_200_sp500:
   "Bank of America Corporation": BAC
   "Costco Wholesale Corporation": COST
   "Broadcom Inc.": AVGO
-  "Thermo Fisher Scientific Inc.": TMO
   "McDonald's Corporation": MCD
   "The Walt Disney Company": DIS
-  "NextEra Energy, Inc.": NEE
-  "Adobe Inc.": ADBE
-  "Philip Morris International Inc.": PM
-  "Verizon Communications Inc.": VZ
-  "Netflix, Inc.": NFLX
-  "Salesforce, Inc.": CRM
-  "Abbott Laboratories": ABT
-  "Intel Corporation": INTC
-  "Accenture plc": ACN
-  "NIKE, Inc.": NKE
-  "Wells Fargo & Company": WFC
-  "Danaher Corporation": DHR
-  "Texas Instruments Incorporated": TXN
-  "Linde plc": LIN
-  "Oracle Corporation": ORCL
-  "Bristol-Myers Squibb Company": BMY
-  "QUALCOMM Incorporated": QCOM
-  "Medtronic plc": MDT
-  "Morgan Stanley": MS
-  "Raytheon Technologies Corporation": RTX
-  "United Parcel Service, Inc.": UPS
-  "Citigroup Inc.": C
-  "The Charles Schwab Corporation": SCHW
-  "Amgen Inc.": AMGN
-  "Honeywell International Inc.": HON
-  "Lowe's Companies, Inc.": LOW
-  "International Business Machines Corporation": IBM
-  "The Goldman Sachs Group, Inc.": GS
-  "American Tower Corporation": AMT
-  "Advanced Micro Devices, Inc.": AMD
-  "S&P Global Inc.": SPGI
-  "Caterpillar Inc.": CAT
-  "Prologis, Inc.": PLD
-  "BlackRock, Inc.": BLK
-  "CVS Health Corporation": CVS
-  "Stryker Corporation": SYK
-  "Union Pacific Corporation": UNP
-  "The TJX Companies, Inc.": TJX
-  "Intuitive Surgical, Inc.": ISRG
-  "American Express Company": AXP
-  "AT&T Inc.": T
-  "PayPal Holdings, Inc.": PYPL
-  "General Electric Company": GE
-  "ServiceNow, Inc.": NOW
-  "Altria Group, Inc.": MO
-  "Marsh & McLennan Companies, Inc.": MMC
-  "Booking Holdings Inc.": BKNG
-  "Lockheed Martin Corporation": LMT
-  "Elevance Health, Inc.": ELV
-  "3M Company": MMM
-  "Duke Energy Corporation": DUK
-  "The Southern Company": SO
-  "Becton, Dickinson and Company": BDX
-  "Analog Devices, Inc.": ADI
-  "Mondelez International, Inc.": MDLZ
-  "Deere & Company": DE
-  "Automatic Data Processing, Inc.": ADP
-  "CME Group Inc.": CME
-  "ConocoPhillips": COP
-  "Zoetis Inc.": ZTS
-  "Moderna, Inc.": MRNA
-  "Cigna Group": CI
-  "Applied Materials, Inc.": AMAT
-  "Lamar Advertising Company": LAMR
-  "Gilead Sciences, Inc.": GILD
-  "Norfolk Southern Corporation": NSC
-  "Target Corporation": TGT
-  "Chubb Limited": CB
-  "Dominion Energy, Inc.": D
-  "Ford Motor Company": F
-  "Equinix, Inc.": EQIX
-  "Regeneron Pharmaceuticals, Inc.": REGN
-  "Fiserv, Inc.": FISV
-  "Cisco Systems, Inc.": CSCO
-  "Boston Scientific Corporation": BSX
-  "Vertex Pharmaceuticals Incorporated": VRTX
-  "Progressive Corporation": PGR
-  "The PNC Financial Services Group, Inc.": PNC
-  "Aon plc": AON
-  "Intercontinental Exchange, Inc.": ICE
-  "Colgate-Palmolive Company": CL
-  "Moody's Corporation": MCO
-  "Illinois Tool Works Inc.": ITW
-  "Air Products and Chemicals, Inc.": APD
-  "Microchip Technology Incorporated": MCHP
-  "Humana Inc.": HUM
-  "Pioneer Natural Resources Company": PXD
-  "FedEx Corporation": FDX
-  "The Travelers Companies, Inc.": TRV
-  "Eaton Corporation plc": ETN
-  "Ross Stores, Inc.": ROST
-  "Northrop Grumman Corporation": NOC
-  "Kimberly-Clark Corporation": KMB
-  "CSX Corporation": CSX
-  "Ecolab Inc.": ECL
-  "General Motors Company": GM
-  "Newmont Corporation": NEM
-  "Constellation Brands, Inc.": STZ
-  "Public Storage": PSA
-  "Roper Technologies, Inc.": ROP
-  "Waste Management, Inc.": WM
-  "TE Connectivity Ltd.": TEL
-  "EOG Resources, Inc.": EOG
-  "American Electric Power Company, Inc.": AEP
-  "HCA Healthcare, Inc.": HCA
-  "Marriott International, Inc.": MAR
-  "American International Group, Inc.": AIG
-  "Phillips 66": PSX
-  "Cadence Design Systems, Inc.": CDNS
-  "NXP Semiconductors N.V.": NXPI
-  "General Dynamics Corporation": GD
-  "Rockwell Automation, Inc.": ROK
-  "Simon Property Group, Inc.": SPG
-  "AutoZone, Inc.": AZO
-  "Lam Research Corporation": LRCX
-  "Fidelity National Information Services, Inc.": FIS
-  "Aptiv PLC": APTV
-  "MSCI Inc.": MSCI
-  "The Kraft Heinz Company": KHC
-  "The Bank of New York Mellon Corporation": BK
-  "Dollar Tree, Inc.": DLTR
-  "Emerson Electric Co.": EMR
-  "Baxter International Inc.": BAX
-  "Trimble Inc.": TRMB
-  "Walgreens Boots Alliance, Inc.": WBA
-  "Hilton Worldwide Holdings Inc.": HLT
-  "Republic Services, Inc.": RSG
-  "T. Rowe Price Group, Inc.": TROW
-  "Starbucks Corporation": SBUX
-  "Monster Beverage Corporation": MNST
-  "The Hershey Company": HSY
-  "O'Reilly Automotive, Inc.": ORLY
-  "Corteva, Inc.": CTVA
-  "Mettler-Toledo International Inc.": MTD
-  "Parker-Hannifin Corporation": PH
-  "The Allstate Corporation": ALL
-  "Old Dominion Freight Line, Inc.": ODFL
-  "Edison International": EIX
-  "Xilinx, Inc.": XLNX
-  "Welltower Inc.": WELL
-  "Align Technology, Inc.": ALGN
-  "McCormick & Company, Incorporated": MKC
-  "SBA Communications Corporation": SBAC
-  "Verisk Analytics, Inc.": VRSK
-  "Fortinet, Inc.": FTNT
-  "Dollar General Corporation": DG
-  "Extra Space Storage Inc.": EXR
-  "KLA Corporation": KLAC
-  "Autodesk, Inc.": ADSK
-  "Keysight Technologies Inc.": KEYS
-  "Hewlett Packard Enterprise Company": HPE
-  "Seagate Technology Holdings PLC": STX
-  "Carrier Global Corporation": CARR
-  "Nasdaq, Inc.": NDAQ
-  "Prudential Financial, Inc.": PRU
-  "Southwest Airlines Co.": LUV
-  "W.W. Grainger, Inc.": GWW
-  "Stanley Black & Decker, Inc.": SWK
-  "Agilent Technologies, Inc.": A
