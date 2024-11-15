@@ -1,1 +1,0 @@
-#TODO: write procedures to clean, process, and generate trading signals for set strategy.
